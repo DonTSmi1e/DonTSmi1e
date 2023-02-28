@@ -1,4 +1,4 @@
-# мама я в телевизоре
+# мама я в телевизоре (mom im on tv)
 ![alt text](https://i.imgur.com/jDjE5aB.png)
 
 # what about my skills
