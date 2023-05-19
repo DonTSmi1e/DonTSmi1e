@@ -1,4 +1,4 @@
-# мама я в телевизоре (mom im on tv)
+# yay
 ![alt text](https://i.imgur.com/jDjE5aB.png)
 
 # what about my skills
@@ -10,7 +10,7 @@
 `с++ = -1/10`
 `c# = maybe/10`
 
-# my best program (just joking.)
+# my best program
 ```python
 name = input("enter ur name ; ")
 if name == "dontsmi1e":
