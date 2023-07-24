@@ -1,20 +1,32 @@
 # yay
-![alt text](https://i.imgur.com/jDjE5aB.png)
+![alt text](multitool_0.1.0.png)
 
-# what about my skills
-`configs = 11/10`
-`python = 3/10`
-`html = <h1></h1>/10`
-`css = 0/10`
-`js = 0/10`
-`с++ = -1/10`
-`c# = maybe/10`
+# hello world in nasm
+```x86asm
+org 0x7c00
+bits 16
 
-# my best program
-```python
-name = input("enter ur name ; ")
-if name == "dontsmi1e":
-  print("hello creator")
-else:
-  print("hello", name)
+main:
+  mov si, hello_world
+  call print
+
+print:
+  mov ah, 0x0e
+.loop:
+  mov al, [si]
+  cmp al, 0
+  je .end
+
+  int 10h
+
+  inc si
+  jmp .loop
+.end:
+  ret
+
+hello_world: db 'Hello, World!', 0
+
+times 510-($-$$) db 0
+dw 0xaa55
+
 ```
